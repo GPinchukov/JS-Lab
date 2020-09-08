@@ -1,0 +1,19 @@
+<html>
+ <head>
+     <meta charset='utf-8' />
+ </head>
+    <body>
+        <script>
+         var y = prompt('введите текст ');
+         var ya = y.split('');
+         var g = ya[4];
+         var s = 0;
+         for ( var x = 0 ; x < 21 ; x++ ) {    
+               if (ya[x] == g){
+               s++;
+       }
+       }
+          alert ('в вашей строке ' +  s  + ' пятых символов ');  
+        </script>
+  </body>
+</html>
